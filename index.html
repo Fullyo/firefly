@@ -15,7 +15,7 @@
     <meta property="og:type" content="website">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://placehold.co/32x32/0ea5e9/white?text=FC" type="image/x-icon">
+    <link rel="icon" href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1760670336/fireflylogo_dfgovh.png" type="image/png">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -53,6 +53,9 @@
         }
         .hero-text-shadow {
             text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+        }
+        .footer-logo {
+            filter: brightness(0) invert(1);
         }
     </style>
     
@@ -103,7 +106,9 @@
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-slate-900">Firefly Cottage</a>
+            <a href="#">
+                <img src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1760670336/fireflylogo_dfgovh.png" alt="Firefly Cottage Logo" class="h-12">
+            </a>
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#property" class="text-slate-600 hover:text-sky-700 transition duration-300">The Property</a>
                 <a href="#amenities" class="text-slate-600 hover:text-sky-700 transition duration-300">Amenities</a>
@@ -423,7 +428,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
                 <!-- About Column -->
                 <div class="mb-6 md:mb-0">
-                    <h3 class="text-2xl font-bold text-white mb-2">Firefly Cottage</h3>
+                    <img src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1760670336/fireflylogo_dfgovh.png" alt="Firefly Cottage Logo" class="h-12 footer-logo mb-2 mx-auto md:mx-0">
                     <p class="text-slate-400">Your modern beachside retreat in beautiful North Myrtle Beach, SC. We look forward to hosting you.</p>
                 </div>
 
